@@ -1,17 +1,22 @@
 # Docker - Webpack Containers
 
-This repro contains examples on how to setup Docker containers for webpack. This repro comes with both plain webpack and laravel-elixir (6.0+).
+This repro contains examples on how to setup Docker containers for webpack. This repro comes with both [plain webpack](/webpack) and [laravel-elixir (6.0+)](/elixir).
+
+
+## Requirements
+
+Docker 1.10+
 
 
 ## Running tests
 
-Change the var `NPM_COMMAND` to `test` in your docker-compose.yml.
+Change the var `NPM_COMMAND` to `test` in your docker-compose.yml (you can find an example in `docker-compose-test.yml`).
 
 ### Locally
 
 `docker exec -i <containername> npm test`
 
-### On CI:
+### Running on CI
 
 `docker-compose -f docker-compose.yml -f docker-compose-test.yml up`
 
