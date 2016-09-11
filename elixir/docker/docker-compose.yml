@@ -1,0 +1,9 @@
+version: '2'
+services:
+    frontend:
+        image: frojd/acme_elixir_frontend
+        build: ../frontend
+        volumes:
+            - "../frontend/js:/usr/src/app/js"
+            - "../frontend/scss:/usr/src/app/scss"
+            - "../frontend/builds:/usr/src/app/builds"
