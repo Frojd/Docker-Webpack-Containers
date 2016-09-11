@@ -1,0 +1,24 @@
+{
+  "name": "elixir_frontend",
+  "version": "1.0.1",
+  "description": "",
+  "author": "Fröjd Interactive AB",
+  "license": "ISC",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "buble": "0.13.2",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.5.0",
+    "laravel-elixir": "6.0.0-10",
+    "laravel-elixir-webpack-official": "^1.0.2"
+  },
+  "dependencies": {
+    "lodash": "4.13.1"
+  }
+}

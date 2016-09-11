@@ -1,0 +1,12 @@
+# Elixir
+/elixir/frontend/builds/css/*
+/elixir/frontend/builds/js/*
+/elixir/frontend/builds/img/*
+
+# Webpack
+/webpack/frontend/dist/js/*
+/webpack/frontend/dist/css/*
+/webpack/frontend/dist/img/*
+
+# NPM
+node_modules

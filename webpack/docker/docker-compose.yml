@@ -1,0 +1,11 @@
+version: '2'
+services:
+    frontend:
+        image: frojd/acme_webpack_frontend
+        build: ../frontend
+        volumes:
+            - "../frontend/js:/usr/src/app/js"
+            - "../frontend/scss:/usr/src/app/scss"
+            - "../frontend/dist:/usr/src/app/dist"
+        environment:
+            NPM_COMMAND: "start"
