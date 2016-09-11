@@ -1,6 +1,5 @@
 FROM node:6-onbuild
 MAINTAINER Frojd
-LABEL version="v1.0.0"
 
 ENV NPM_COMMAND start
 
