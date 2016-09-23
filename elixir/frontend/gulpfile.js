@@ -12,6 +12,7 @@ var elixirConfig = require('./elixir.json');
 
 require('laravel-elixir-webpack-official');
 
+// Use polling to detect file changes on docker
 Elixir.webpack.mergeConfig({
     watchOptions: {
         poll: true
